@@ -5,3 +5,9 @@
     // -hai vinto
 // --se num utente< num pc 
     // -haiperso
+
+
+let userNumber = Math.floor(Math.random() * 6) +1;
+let computerNumber = Math.floor(Math.random() * 6) +1;
+
+console.log(userNumber);
