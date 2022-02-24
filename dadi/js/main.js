@@ -11,3 +11,9 @@ let userNumber = Math.floor(Math.random() * 6) +1;
 let computerNumber = Math.floor(Math.random() * 6) +1;
 
 console.log(userNumber);
+
+if( userNumber > computerNumber){
+    console.log("Hai vinto!");
+}else if ( userNumber < computerNumber){
+    console.log("Hai perso!");
+}
